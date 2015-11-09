@@ -1,28 +1,28 @@
 body  {
-background-image: url(../images/bg.jpg);
+	background-image: url(../images/bg.jpg);
 
-text-align: justify;
+	text-align: justify;
 }
 
 h1  {
-text-align: center;
+	text-align: center;
 }
 
 p  {
-text-indent: 40px;
-text-align: justify;
+	text-indent: 40px;
+	text-align: justify;
 }
 
 .blockquote {
-font-style: italic;
-margin-left: 10%;
+	font-style: italic;
+	margin-left: 10%;
 }
 
 
 .fig {
- text-align: center;
+	text-align: center;
 }
 
 #wrapper {
-margin: 0 10%;
+	margin: 0 10%;
 }
