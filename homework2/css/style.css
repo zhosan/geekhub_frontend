@@ -1,0 +1,25 @@
+#wrapper  {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#header {
+	text-align: center;
+}
+
+.text-center  {
+	text-align: center;
+}
+
+.image-left {
+	float: left;
+	margin-right: 20px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.image-center {
+	text-align: center;
+}
