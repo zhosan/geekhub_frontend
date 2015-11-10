@@ -1,0 +1,58 @@
+#wrapper {
+margin: 4%;
+}
+
+legend {
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#shortly li {
+	padding: 5px 0px;
+}
+
+#comments {
+	margin-bottom: 0px;
+}
+
+fieldset  {
+	margin-top: 20px;
+}
+
+.bold  {
+font-weight: bold;
+}
+
+.italic  {
+font-style: italic;
+}
+
+#conclusion {
+margin-bottom: 20px;
+}
+
+.nomargintop {
+	margin-top: 0px;
+}
+
+.nomarginbottom {
+	margin-bottom: 0px;
+
+}
+
+fieldset {
+    border: 2px solid #7a7a7a;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#minutely textarea  {
+
+margin-bottom: 15px;
+}
+

@@ -1,0 +1,11 @@
+#wrapper {
+	margin: 2%;
+}
+
+table {
+	margin: 0px auto 20px;
+}
+
+td, th {
+	padding: 5px;
+}
