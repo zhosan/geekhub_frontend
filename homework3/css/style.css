@@ -9,8 +9,10 @@
 	}
 
 .button  {
-	padding: 20px 50px;
-	margin: 20px;
 	font-size: 30px;
 }
 
+li {
+	margin: 20px;
+
+}
