@@ -2,7 +2,7 @@
 <html>
  <head>
   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  	<title>Homework4</title>
+  	<title>Homework5</title>
   	<link rel="stylesheet" type="text/css" href="css/reset.css">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
@@ -16,7 +16,7 @@
 	 		<div id="content">
 	 			<div id="left-sidebar">
 	 				<p>A short description or a short information about author goes here.</p>
-	 				<img src="img/img1.jpg"> 
+	 				<img src="img/img1.jpg" alt="картинка-1"> 
 	 				<h3>Categories</h3>
 	 				<ul>
 	 					<li><a href="#">Lifestyle<span>51</span></a></li>
@@ -34,7 +34,7 @@
 
 	 				<h3>Search</h3>
 	 				<form method="GET" name="search" action="#">
-	 					<input id="search" type="text" name="form-search">
+	 					<div><input id="search" type="text" name="form-search"></div>
 	 					
 
 	 				</form>
@@ -46,37 +46,69 @@
 	 				<div class="featured-post">
 	 					<p>Lifestyle, Travel</p>
 	 					<h1>Mauris eget orci id leo</h1>
-	 					<img src="img/img2.jpg"> 
+	 					<img src="img/img2.jpg" alt="картинка-2"> 
 	 					<p>Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
 							fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet.</p>
 						<div>
-							<span class="sign">Share:</span> <a href="#">Twitter</a>, <a href="#">Facebook</a>, <a href="#">Digg</a>, <a href="#">Delicious</a>.
+							<span class="sign">Share:</span> 
+							<ul>
+								<li><a href="#">Twitter</a><span>,</span></li>
+								<li><a href="#">Facebook</a><span>,</span></li>
+								<li><a href="#">Digg</a><span>,</span></li>
+								<li><a href="#">Delicious</a><span>.</span></li>
+							</ul>
 						</div>
 						<div style="line-height: 20px;">
-							<span class="sign">Date:</span> June 5th, 2011; <span class="sign">Tags:</span> <a href="#">Tortorm</a>, <a href="#">non</a>, <a href="#">interdum</a>; <span class="sign">Comments</span> <a href="#">1</a> 
+							<span class="sign">Date:</span> June 5th, 2011; 
+							<span class="sign">Tags:</span> 
+							<ul>
+								<li><a href="#">Tortorm</a><span>,</span></li>
+								<li><a href="#">non</a><span>,</span></li>
+								<li><a href="#">interdum</a><span>;</span></li>
+							</ul>
+							<span class="sign">Comments</span> 
+							<a href="#">1</a> 
 						</div>
 					</div>
 
-					<div class="add-post">
-						<img src="img/img3.jpg">
-						<p>My home, Family</p>
-						<h2>Mauris eget orci id leo</h2>
-						<p>Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
-						fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet.</p>
-						<div class="signs">
-							<span class="sign">Date:</span> June 5th, 2011; <span class="sign">Tags:</span> <a href="#">Tortorm</a>, <a href="#">non</a>, <a href="#">interdum</a>; <span class="sign">Comments</span> <a href="#">1</a> 
-						</div>
-					</div>
-					<div class="add-post">
-						<img src="img/img4.jpg">
-						<p>Work</p>
-						<h2>Mauris eget orci id leo</h2>
-						<p>Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
-						fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet.</p>
-						<div class="signs">
-							<span class="sign">Date:</span> June 5th, 2011; <span class="sign">Tags:</span> <a href="#">Tortorm</a> , <a href="#">non</a> , <a href="#">interdum</a> ; <span class="sign">Comments</span> <a href="#">1 </a> 
-						</div>
-					</div>
+					<ul class="additional-posts">
+						<li>
+							<div class="add-post">
+								<img src="img/img3.jpg" alt="картинка-3">
+								<p>My home, Family</p>
+								<h2>Mauris eget orci id leo</h2>
+								<p>Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
+								fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet.</p>
+								<div class="signs">
+									<span class="sign">Date:</span> June 5th, 2011; <span class="sign">Tags:</span> 
+									<ul class="additional-posts">
+										<li><a href="#">Tortorm</a><span>,</span></li> 
+										<li><a href="#">non</a><span>,</span></li> 
+										<li><a href="#">interdum</a><span>;</span></li>
+									</ul>
+									<span class="sign">Comments</span> <a href="#">1</a> 
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="add-post">
+								<img src="img/img4.jpg" alt="картинка-4">
+								<p>Work</p>
+								<h2>Mauris eget orci id leo</h2>
+								<p>Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
+								fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet.</p>
+								<div class="signs">
+									<span class="sign">Date:</span> June 5th, 2011; <span class="sign">Tags:</span> 
+									<ul class="additional-posts">
+										<li><a href="#">Tortorm</a><span>,</span> </li>
+										<li><a href="#">non</a><span>,</span> </li>
+										<li><a href="#">interdum</a><span>;</span></li>
+									</ul>
+									<span class="sign">Comments</span> <a href="#">1 </a> 
+								</div>
+							</div>
+						</li>
+					</ul>
 
 					<div class="pagination">
 						<ul>
@@ -100,12 +132,12 @@
 	 				<div class="social-icons">
 	 					<ul>
 	 						<li>
-	 								<a href="#"><img src="img/twitter.png"></a>
+	 								<a href="#"><img src="img/twitter.png" alt="twitter"></a>
 	 								<p>Twitter</p>
 	 								<span>599 folowers</span>
 	 						</li>
 	 						<li>
-	 								<a href="#"><img src="img/RSS.png"></a>
+	 								<a href="#"><img src="img/RSS.png" alt="rss"></a>
 	 								<p>RSS</p>
 	 								<span>109 readers</span>
 	 						</li>
@@ -113,23 +145,24 @@
 	 					</ul>
 	 				</div>
 
-	 				<img src="img/img5.jpg">
+	 				<img src="img/img5.jpg" alt="картинка-5">
 
 	 				<div class="sidebar160">
-	 					<span class="black">Sidebar160 </span> Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin
+	 					<h4 class="black">Sidebar160 </h4> Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin
 	 				</div>
 
 					<div class="sidebar120">
-						<span class="black">Sidebar120 </span>Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
+						<h4 class="black">Sidebar120 </h4>Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
 					</div>
 
 	 			</div>
 	 		</div>
 	 		<div id="footer">
 	 			<div id="copyright">
-	 				<p>2011 &copy DuckFiles.com</p>
+	 				<p><a href="#">2011 &copy DuckFiles.com</a></p>
 	 		</div>
 
+		</div>
 		</div>
 
  	</body>

@@ -13,7 +13,6 @@ body {
 
 #header {
 	height: 50px;
-	width: 1000px;
 	background-color: white;
 }
 
@@ -21,7 +20,7 @@ body {
 #logo {
 	width: 120px;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 13px;
 	color: black;
 	float: left;
 	padding-top: 25px;
@@ -118,6 +117,17 @@ h1 {
 	height: 250px;
 }
 
+.featured-post ul { 
+	display: inline;
+	padding-left: 0;
+}
+
+.featured-post ul li { 
+	list-style: outside none none;
+	display: inline;
+}
+
+
 .featured-post p:first-child {
 	margin: 1px 0px 0px 0px;	
 }
@@ -125,6 +135,21 @@ h1 {
 .featured-post p:nth-child(even) {
 	font-size: 12px;
 	line-height: 16px;
+}
+
+.additional-posts {
+	padding-left: 0;
+	margin-top: 0;
+	display: inline;
+
+}
+
+.additional-posts li { 
+	list-style: outside none none;
+}
+
+.signs ul li {
+	display: inline;
 }
 
 .sign {
@@ -237,8 +262,7 @@ h1 {
 
 
 .social-icons ul li p:nth-child(2n) {
-	margin-top: 0;
-	margin: 2px 0 4 38;
+	margin: 2px 0px 4px 38px;
 
 	color: black;
 	font-weight: bold;
@@ -267,21 +291,25 @@ h1 {
 	float: left;
 }
 
-.black {
+h4 {
+	margin: 0;
 	color: black;
-	font-weight: bold;
-	display: block;
 }
 
 /* ---------------------------------------------------footer------------------------------------- */
 
 #footer {
-	width: 1000px;
 	height: 50px;
 	padding: 20px;
 	clear: both;
 	background-color: white;
 	font-size: 11px;
 
+
+}
+
+#footer a {
+	text-decoration: none;
+	color: #787878;
 
 }
