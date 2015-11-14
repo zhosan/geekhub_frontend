@@ -1,0 +1,315 @@
+body {
+	 font-family: Tahoma,sans-serif;
+}
+
+#wrapper {
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+	color: #787878;
+	background-color: #f4f4f4;
+}
+/* ---------------------------------------------------header------------------------------------- */
+
+#header {
+	height: 50px;
+	background-color: white;
+}
+
+
+#logo {
+	width: 120px;
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	float: left;
+	padding-top: 25px;
+	margin-left: 20px;
+}
+
+
+/* ---------------------------------------------------content------------------------------------- */
+
+h1 {
+	color: black;
+	margin: 5px 0px 19px 0px;
+	font-size: 1.7em;
+}
+
+#content {
+	margin: 0 auto;
+	width: 960px;
+	padding: 25px 20px 25px;
+	font-size: 11px;
+	background-color: #f4f4f4;
+}
+
+#left-sidebar {
+	width: 120px;
+	float: left;
+}
+
+#left-sidebar p {
+	margin: 0px 0px 10px 0px;
+	line-height: 17px;	
+}
+
+#left-sidebar h3 {
+	padding-top: 10px;
+	color: black;
+}
+
+
+
+#left-sidebar img {
+	width: 120px;
+	height: 62px;
+}
+
+#left-sidebar ul {
+	padding-left: 0px;
+}
+
+#left-sidebar li {
+	list-style: outside none none;
+}
+
+#main {
+	width: 500px;
+	margin-left: 20px;
+	float: left;
+
+}
+
+#main a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+#left-sidebar a {
+	display: block;
+	text-decoration: none;
+	padding: 7px;
+	background-color: #e8e8e8;
+	color: black;
+	border-bottom: 1px solid #f4f4f4;
+
+}
+
+#left-sidebar li a span {
+	float: right;
+}
+
+#left-sidebar li a:hover {
+	background-color: #cacaca;
+}
+
+#left-sidebar form input {
+	padding: 5px 0;
+	border: none;
+}
+
+.featured-post img {
+	width: 500px;
+	height: 250px;
+}
+
+.featured-post ul { 
+	display: inline;
+	padding-left: 0;
+}
+
+.featured-post ul li { 
+	list-style: outside none none;
+	display: inline;
+}
+
+
+.featured-post p:first-child {
+	margin: 1px 0px 0px 0px;	
+}
+
+.featured-post p:nth-child(even) {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.additional-posts {
+	padding-left: 0;
+	margin-top: 0;
+	display: inline;
+
+}
+
+.additional-posts li { 
+	list-style: outside none none;
+}
+
+.signs ul li {
+	display: inline;
+}
+
+.sign {
+	color: #b4b4b4;
+}
+
+.add-post {
+	padding-top: 60px;
+}
+
+.add-post img {
+	width: 240px;
+	height: 125px;
+	float: right;
+	padding-left: 10px;
+}
+
+
+.add-post p {
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 18px;
+
+}
+
+.add-post h2 {
+	margin-top: 5px;
+}
+
+.signs {
+	margin-top: 15px;
+}
+
+.pagination {
+	margin-top: 40px;
+	padding-bottom: 60px;
+}
+
+.pagination ul{
+	padding-left: 0px;
+}
+
+.pagination ul li {
+	list-style: outside none none;
+	float: left;
+	margin: 1px;
+}
+
+.pagination ul li:first-child {
+	padding-right: 7px;
+}
+
+.pagination a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 6px;
+}
+
+.pagination a:hover {
+	background-color: #e7e7e7;
+}
+
+.pagination .no-bg {
+	text-decoration: none;
+	background-color: #f7f7f7;
+
+}
+
+#right-sidebar {
+	width: 300px;
+	margin-left: 20px;
+	width: 300px;
+	float: left;
+}
+
+
+.social-icons {
+	float: left;
+	list-style: outside none none;
+}
+
+.social-icons ul {
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.social-icons a {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.social-icons ul li{
+	list-style: outside none none;
+	float: left;
+	width: 120px;
+}
+
+.social-icons ul li:first-child {
+	width: 160px;
+	display: block;
+	margin-right: 20px;
+}
+
+
+.social-icons span {
+	float: left;
+	padding-left: 7px;
+}
+
+
+.social-icons ul li p:nth-child(2n) {
+	margin: 2px 0px 4px 38px;
+
+	color: black;
+	font-weight: bold;
+}
+
+.social-icons img {
+	width: 32px;
+	height: 32px;
+
+}
+
+#right-sidebar img{
+	margin-top: 3px;
+}
+
+.sidebar160 {
+	width: 160px;
+	margin-top: 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+.sidebar120 {
+	width: 120px;
+	margin-top: 10px;
+	float: left;
+}
+
+h4 {
+	margin: 0;
+	color: black;
+}
+
+/* ---------------------------------------------------footer------------------------------------- */
+
+#footer {
+	height: 50px;
+	padding: 20px;
+	clear: both;
+	background-color: white;
+	font-size: 11px;
+
+
+}
+
+#footer a {
+	text-decoration: none;
+	color: #787878;
+
+}
