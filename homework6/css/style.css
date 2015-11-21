@@ -1,0 +1,257 @@
+.wrapper {
+	background-image: url(../img/gradient.jpg);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: #747474;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+
+}
+
+/*_______________________________________________________________________header*_________________________________________________________________*/
+
+.header, .content {
+	width: 780px;
+	margin: 0 auto;
+	border-bottom: 1px solid #939598;
+	overflow: hidden;
+}
+
+.entrance {
+	float: right;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 0px 0px 25px 25px;
+	margin-bottom: 15px;
+	padding: 5px 0px 10px 0px;
+}
+
+.entrance span {
+	padding: 20px;
+}
+
+.entrance a:hover, .menu ul li a:hover {
+	color: #02a4fa;
+}
+
+.logos {
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+
+.logo-text {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 15pt;
+	height: 83px;
+	display: table;
+	float: left;
+}
+
+.logo-text div {
+  display: inline-block;
+  vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.society {
+	float: right;
+	font-size: 11pt;
+	font-weight: bold;
+	margin-top:  30px;
+}
+
+.menu {
+	width: 100%;
+}
+
+.menu ul {
+	float: right;
+	clear: both;
+	margin: 0px 25px 0px 0px;
+}
+
+.menu ul li:first-child {
+	border-radius: 15px 0px 0px 0px;
+}
+
+.menu ul li:last-child {
+	border-radius: 0px 15px 0px 0px;
+    border-right: 1px solid #939598;
+
+}
+
+.menu ul li {
+	float: left;
+	list-style: outside none none;
+	border-left: 1px solid #939598;
+	border-top: 1px solid #939598;
+	padding: 12px;
+	margin: 0px;
+	font-size: 16px;
+}
+
+/*_______________________________________________________________________content*_________________________________________________________________*/
+/*_______________________________________________________________________sidebar*_________________________________________________________________*/
+
+.sidebar {
+	width: 230px;
+	float: left;
+	margin-right: 25px;
+}
+
+.content .sidebar h2 {
+	font-size: 18px;
+	color: #03a7fe;
+	margin: 25px 0px;
+}
+
+.content .sidebar ul {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.categories ul li {
+	list-style: outside none none;
+	border-bottom: 1px solid #c5c5c4;
+	padding: 8px 0;
+	font-size: 12px;
+}
+
+.categories ul li:last-child {
+	border-bottom: none;
+}
+
+.categories img {
+	margin-right: 10px;
+}
+
+.rss-icon {
+	padding: 15px 0px;
+	border-top: 1px solid #cbcac9;
+	border-bottom: 1px solid #cbcac9;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.links {
+	text-align: center;
+	margin-bottom: 115px;
+}
+
+.links ul li {
+	padding-top: 40px;
+	list-style: outside none none;
+
+}
+
+
+h1 {
+	font-size: 1.5em;
+	color: black;
+	margin-top: 73px;
+	margin-bottom: 8px;
+}/*_______________________________________________________________________main*_________________________________________________________________*/
+
+
+h2 {
+	margin: 0px ;
+	color: #03a7fe;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.main ul li {
+	
+	list-style: outside none none;
+
+}
+
+.companies {
+	margin: 5px 0px;
+	border-bottom: 1px solid #00a7fb;
+}
+
+.companie {
+	border-top: 1px solid #00a7fb;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main ul {
+	padding: 0px;
+}
+
+.companie img {
+	float: left;
+	margin-right: 12px;
+}
+
+.info {
+	overflow: hidden;
+}
+
+
+.companie ul li {
+    background-color: #dfe5e6;
+    float: left;
+    margin-top: 3px;
+    padding: 5px 0px;
+    width: 50%;
+    color: black;
+
+}
+
+.companie ul li span {
+	padding-left: 10px;
+	color: #555555;
+}
+
+.companie ul li.contacts {
+	margin-top: 0;
+	padding-left: 50%;
+	width: 50%;
+}
+
+.companie ul li.contacts:nth-child(2n+1) {
+	background: #edf0f1;
+}
+
+
+
+/*_______________________________________________________________________main*_________________________________________________________________*/
+
+.footer {
+    border-top: 1px solid #cbcac9;
+    width: 780px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.footer-content {
+	float: right;
+	width: 500px;
+	background-color: #d9dada;
+	padding: 5px 20px;
+	margin-bottom: 30px;
+	border-radius: 0 0 15px 15px;
+
+}
+
+.copyright {
+	float: left;
+}
+
+.footer-image {
+	float: right;
+	border-left: 1px solid #d9dada;
+}
+
