@@ -1,20 +1,22 @@
-.wrapper {
+
+body { 
 	background-image: url(../img/gradient.jpg);
 	background-repeat: repeat-x;
-	margin: 0;
-	padding: 0;
+}
+
+.wrapper {
 	overflow: hidden;
 	color: #747474;
 	font-family: arial, sans-serif;
 	font-size: 12px;
+	width: 780px;
+	margin: 0 auto;
 
 }
 
 /*_______________________________________________________________________header*_________________________________________________________________*/
 
 .header, .content {
-	width: 780px;
-	margin: 0 auto;
 	border-bottom: 1px solid #939598;
 	overflow: hidden;
 }
@@ -25,11 +27,21 @@
 	border: 1px solid white;
 	border-radius: 0px 0px 25px 25px;
 	margin-bottom: 15px;
-	padding: 5px 0px 10px 0px;
+	padding: 5px 0px 7px 0px;
 }
 
-.entrance span {
-	padding: 20px;
+.entrance ul{
+		padding: 0;
+		margin: 0;
+}
+
+.entrance li {
+	padding: 0 20px;
+	display: inline;
+}
+
+.entrance li:first-child {
+	border-right: 1px solid #939598;
 }
 
 .entrance a:hover, .menu ul li a:hover {
@@ -77,11 +89,12 @@
 }
 
 .menu ul li:first-child {
-	border-radius: 15px 0px 0px 0px;
+	border-radius: 25px 0px 0px 0px;
+	background: linear-gradient(to bottom, #ffffff 0%,#e8eced 100%);
 }
 
 .menu ul li:last-child {
-	border-radius: 0px 15px 0px 0px;
+	border-radius: 0px 25px 0px 0px;
     border-right: 1px solid #939598;
 
 }
@@ -91,9 +104,10 @@
 	list-style: outside none none;
 	border-left: 1px solid #939598;
 	border-top: 1px solid #939598;
-	padding: 12px;
+	padding: 12px 25px;
 	margin: 0px;
-	font-size: 16px;
+	font-size: 15px;
+	background: linear-gradient(to bottom, #e5eaeb 0%,#d9d8d5 100%);
 }
 
 /*_______________________________________________________________________content*_________________________________________________________________*/
@@ -120,8 +134,11 @@
 .categories ul li {
 	list-style: outside none none;
 	border-bottom: 1px solid #c5c5c4;
-	padding: 8px 0;
+	padding: 8px 18px;
 	font-size: 12px;
+	background-image: url("../img/category-arrow.png");
+	background-repeat: no-repeat;
+	background-position: left center;
 }
 
 .categories ul li:last-child {
@@ -139,6 +156,19 @@
 	text-align: center;
 	margin-top: 50px;
 }
+
+
+.social-rss {
+    border: 4px solid #ff9600;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.social-rss i {
+	color: #ff9600;
+}
+
 
 .links {
 	text-align: center;
@@ -199,20 +229,60 @@ h2 {
 	overflow: hidden;
 }
 
+dd {
+	margin: 0;
+}
 
-.companie ul li {
+.info dl dt, .info dl dd {
+	background-color: #dfe5e6;
+    float: left;
+    margin-top: 3px;
+    padding: 5px 0px;
+    color: black;
+    width: 48.6%;
+}
+
+.info dl dt {
+	color: #555555;
+	padding-left: 10px;
+
+}
+
+.info dl dd a {
+	color: #02a4fa;
+	text-decoration: none;
+
+}
+
+.info dl dd.contacts {
+	width: 100%;
+	padding-left: 50%;
+	margin-top: 0;
+}
+
+.fa-phone, .fa-skype, .fa-at, .fa-twitter {
+	margin-right: 5px;
+}
+
+.info dl dd.contacts:nth-child(2n+1) {
+	background: #edf0f1;
+}
+
+
+.info ul li {
     background-color: #dfe5e6;
     float: left;
     margin-top: 3px;
     padding: 5px 0px;
-    width: 50%;
+    width: 100%;
     color: black;
-
+    display: block;
 }
 
-.companie ul li span {
+.info ul li span {
 	padding-left: 10px;
 	color: #555555;
+	float: right;
 }
 
 .companie ul li.contacts {
@@ -231,7 +301,6 @@ h2 {
 
 .footer {
     border-top: 1px solid #cbcac9;
-    width: 780px;
     margin: 0 auto;
     font-size: 12px;
 }

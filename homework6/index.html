@@ -5,23 +5,23 @@
 	<title>Homework6</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 <body>
 	<div class="wrapper">
 		<div class="header-section">
 			<div class="header">
 				<div class="entrance">
-					<span><a href="#">регистрация</a></span>
-					<span style="padding: 0px;">|</span>
-					<span><a href="#">вход</a></span>
+					<ul>
+						<li><a href="#">регистрация</a></li>
+						<li><a href="#">вход</a></li>
+					</ul>
 				</div>	<!-- entrance -->
 				<div class="logos">
 					<div class="logo">
-						<img src="img/m2m.png" alt="logo">
+						<img src="img/managers-to-managers.png" alt="logo">
 					</div> <!-- logo -->
-					<div class="logo-text">
-						<div>managers to <br> managers</div>
-					</div> <!-- logo-text -->
 					<div class="society">
 						Сообщество IT-компаний города Черкассы
 					</div>
@@ -39,28 +39,32 @@
 			<div class="content">
 				<div class="sidebar">
 					<div class="categories">
-						<h2>Категории <img src="img/blue-triangle.png" alt="blue-triangle"></h2>
+						<h2>Категории <i class="fa fa-caret-down"></i></h2>
+
 						<ul>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">CMS</a></li>
-							<li><img src="img/category-arrow.png"><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
+							<li><a href="#">CMS</a></li>
+							<li><a href="#">Design Patterns</a></li>
 						</ul>
 					</div> <!-- categories -->
 					<div class="rss-icon">
-							<a href="#"><img src="img/rss.png"></a>
+							<a class="social-rss" href="#">
+								<i class="fa fa-rss"></i>
+							RSS
+							</a>
 						
 					</div> <!-- rss-icon -->
 					<div class="links">
@@ -86,78 +90,75 @@
 				<div class="main">
 					<h1>Компании</h1>
 					<ul class="companies">
-						<li>
-							<div class="companie">
+						<li class="companie">
+							
 								<img src="img/green-logo.png" alt="logo">
 								<div class="info">
 									<h2>Kyosho.inc</h2>
-									<ul>
-										<li><span>количество работников</span></li>
-										<li>50</li>
-										<li><span>технологии</span></li>
-										<li>PHP, Flash, Ruby</li>
-										<li><span>возраст (лет на рынке)</span></li>
-										<li>20</li>
-										<li><span>сайт</span></li>
-										<li><a href="#" class="firm-link">www.kyosho.org</a></li>
-										<li><span>CEO</span></li>
-										<li>Agent Anderson Smith</li>
-										<li class="contacts"><img src="img/phone.png">+1 185 8745-254</li>
-										<li class="contacts"><img src="img/skype.png"><a href="#">smithy</a></li>
-										<li class="contacts"><img src="img/mail.png">smithy@sobakka.net</a></li>
-										<li class="contacts"><img src="img/twitter.png"><a href="#">smither</a></li>
-									</ul>
+									<dl>
+										<dt>количество работников</dt>
+										<dd>50</dd>
+										<dt>технологии</dt>
+										<dd>PHP, Flash, Ruby</dd>
+										<dt>возраст (лет на рынке)</dt>
+										<dd>20</dd>
+										<dt>сайт</dt>
+										<dd><a href="#">www.kyosho.org</a></dd>
+										<dt>CEO</dt>
+										<dd>Agent Anderson Smith</dd>
+										<dd class="contacts"><i class="fa fa-phone"></i>+1 185 8745-254</dd>
+										<dd class="contacts"><i class="fa fa-skype"></i>smithy</dd>
+										<dd class="contacts"><i class="fa fa-at"></i>smithy@sobakka.net</dd>
+										<dd class="contacts"><i class="fa fa-twitter"></i>smither</dd>
+									</dl>
 								</div> <!-- info -->
-							</div> <!-- companie -->
-						</li>
-												<li>
-							<div class="companie">
+					
+						</li> <!-- companie -->
+						<li class="companie">
 								<img src="img/green-logo.png" alt="logo">
 								<div class="info">
 									<h2>Kyosho.inc</h2>
-									<ul>
-										<li><span>количество работников</span></li>
-										<li>50</li>
-										<li><span>технологии</span></li>
-										<li>PHP, Flash, Ruby</li>
-										<li><span>возраст (лет на рынке)</span></li>
-										<li>20</li>
-										<li><span>сайт</span></li>
-										<li><a href="#" class="firm-link">www.kyosho.org</a></li>
-										<li><span>CEO</span></li>
-										<li>Agent Anderson Smith</li>
-										<li class="contacts"><img src="img/phone.png">+1 185 8745-254</li>
-										<li class="contacts"><img src="img/skype.png"><a href="#">smithy</a></li>
-										<li class="contacts"><img src="img/mail.png">smithy@sobakka.net</a></li>
-										<li class="contacts"><img src="img/twitter.png"><a href="#">smither</a></li>
-									</ul>
+									<dl>
+										<dt>количество работников</dt>
+										<dd>50</dd>
+										<dt>технологии</dt>
+										<dd>PHP, Flash, Ruby</dd>
+										<dt>возраст (лет на рынке)</dt>
+										<dd>20</dd>
+										<dt>сайт</dt>
+										<dd><a href="#">www.kyosho.org</a></dd>
+										<dt>CEO</dt>
+										<dd>Agent Anderson Smith</dd>
+										<dd class="contacts"><i class="fa fa-phone"></i>+1 185 8745-254</dd>
+										<dd class="contacts"><i class="fa fa-skype"></i>smithy</dd>
+										<dd class="contacts"><i class="fa fa-at"></i>smithy@sobakka.net</dd>
+										<dd class="contacts"><i class="fa fa-twitter"></i>smither</dd>
+									</dl>
 								</div> <!-- info -->
-							</div> <!-- companie -->
-						</li>
-												<li>
-							<div class="companie">
+							
+						</li> <!-- companie -->
+						<li class="companie">
 								<img src="img/green-logo.png" alt="logo">
 								<div class="info">
 									<h2>Kyosho.inc</h2>
-									<ul>
-										<li><span>количество работников</span></li>
-										<li>50</li>
-										<li><span>технологии</span></li>
-										<li>PHP, Flash, Ruby</li>
-										<li><span>возраст (лет на рынке)</span></li>
-										<li>20</li>
-										<li><span>сайт</span></li>
-										<li><a href="#" class="firm-link">www.kyosho.org</a></li>
-										<li><span>CEO</span></li>
-										<li>Agent Anderson Smith</li>
-										<li class="contacts"><img src="img/phone.png">+1 185 8745-254</li>
-										<li class="contacts"><img src="img/skype.png"><a href="#">smithy</a></li>
-										<li class="contacts"><img src="img/mail.png">smithy@sobakka.net</a></li>
-										<li class="contacts"><img src="img/twitter.png"><a href="#">smither</a></li>
-									</ul>
+									<dl>
+										<dt>количество работников</dt>
+										<dd>50</dd>
+										<dt>технологии</dt>
+										<dd>PHP, Flash, Ruby</dd>
+										<dt>возраст (лет на рынке)</dt>
+										<dd>20</dd>
+										<dt>сайт</dt>
+										<dd><a href="#">www.kyosho.org</a></dd>
+										<dt>CEO</dt>
+										<dd>Agent Anderson Smith</dd>
+										<dd class="contacts"><i class="fa fa-phone"></i>+1 185 8745-254</dd>
+										<dd class="contacts"><i class="fa fa-skype"></i>smithy</dd>
+										<dd class="contacts"><i class="fa fa-at"></i>smithy@sobakka.net</dd>
+										<dd class="contacts"><i class="fa fa-twitter"></i>smither</dd>
+									</dl>
 								</div> <!-- info -->
-							</div> <!-- companie -->
-						</li>
+						</li> <!-- companie -->
 						
 					</ul>
 				</div>
