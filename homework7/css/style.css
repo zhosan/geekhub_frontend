@@ -1,7 +1,8 @@
 .wrapper {
-	width: 2000px;
+	width: 1256px;
 	font-family: RobotoSlab;
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 /*-----------------------------------header------------------------------------*/
@@ -9,30 +10,22 @@
 header {
 	overflow: hidden;
 	background-color: #edeff1;
-	padding-bottom: 46px;
+	height: 147px;
 
-}
-
-header .header {
-	width: 1165px;
-	margin: 0 auto;
 }
 
 .logo {
 	float: left;
 	overflow: hidden;
 	margin-top: 49px;
-
-}
-
-.logo-pt1 {
-	font-family: RobotoSlab;
 	font-size: 36px;
 	font-weight: 700;
 	color: #31353e;
+
 }
 
-.logo-pt2 {
+.logo span {
+	display: block;
 	color: #dd4b2b;
 	font-family: RobotoSlab;
 	font-size: 16px;
@@ -73,16 +66,15 @@ nav ul li.active {
 
 
 /*------------------------------main-----------------------------------*/
-/*------------------------------section-1------------------------------*/
+/*------------------------------section-1 (main-section)------------------------------*/
 
-.sec-1 {
+.main-section {
 	background-image: url(../img/bg.png);
-	width: 2000px;
-	height: 1321px;
+	background-size: cover;
 	text-align: center;
 }
 
-.sec-1 h1{
+.main-section h1{
 	font-size: 72px;
 	font-weight: 300;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
@@ -91,7 +83,7 @@ nav ul li.active {
 	margin: 0px 0px 20px;
 }
 
-.sec-1 h2{
+.main-section h2{
 	font-size: 30px;
 	font-weight: 700;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
@@ -105,27 +97,17 @@ nav ul li.active {
 	margin: 122px auto 0px;
 }
 
-.food-menu-1 {
-	width: 315px;
-	padding-left: 30px;
-	padding-right: 80px;
-	float: left;
-}
-
-.food-menu-2 {
-	width: 315px;
-	padding-right: 80px;
-	float: left;
-	width: 315px;
-
-}
-
-.food-menu-3 {
+.food-menu {
+	width: 368px;
 	padding-right: 30px;
 	float: left;
-	width: 315px;
-	text-align: center;
 }
+
+.food-menu:last-child {
+	padding-right: 0;
+}
+
+
 
 .food h2 {
 	color: white;
@@ -159,15 +141,15 @@ nav ul li.active {
 	margin: 79px 0 140px 0;
 }
 
-/*------------------------------section-2------------------------------*/
+/*------------------------------section-2 (our-news)------------------------------*/
 
-.sec-2 {
+.our-news {
 	text-align: center;
 	background-color: #edeff1;
 	padding-top: 80px;
 }
 
-.sec-2 h1 {
+.our-news h1 {
 	color: #31353e;
 	font-size: 30px;
 	font-weight: 700;
@@ -219,19 +201,18 @@ nav ul li.active {
 	border-radius: 27px;
 }
 
-/*------------------------------section-3------------------------------*/
+/*------------------------------section-3 (newsletter)------------------------------*/
 
-.sec-3 {
+.newsletter {
 	text-align: center;
 	background-image: url(../img/bg-2.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 80px;
-	width: 2000px;
-	height: 382px;
 	text-align: center;
 }
 
-.sec-3 h1 {
+.newsletter h1 {
 	color: white;
 	font-size: 30px;
 	font-weight: 700;
@@ -239,7 +220,7 @@ nav ul li.active {
 	margin: 0px;
 }
 
-.sec-3 h2 {
+.newsletter h2 {
 	color: white;
 	font-size: 15px;
 	font-weight: 300;
@@ -247,52 +228,66 @@ nav ul li.active {
 	margin: 0 auto;
 }
 
-.sec-3 form input {
-	margin-top: 43px;
-	padding-left: 36px;
+.newsletter form {
+	margin: 0 auto;
 	width: 509px;
-	height: 54px;
-	background-color: rgba(255, 255, 255, 0.2);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
-	color: #f3f4f6;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
 }
 
-.sec-3 form div input {
-	position: relative;
+section form div {
+	margin: 0 auto;
 	text-align: center;
-	height: 57px;
-	background-color: white;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
-	color: #612316;
-	width: 212px;
-	padding: 0;
-	right: -168px;
-	top: -100px;
 }
 
-/*------------------------------section-4------------------------------*/
-
-.sec-4 {
-	background-color: white;
+.newsletter form input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    color: #f3f4f6;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    height: 54px;
+    margin-top: 43px;
+    padding-left: 36px;
+    width: 300px;
 }
 
-.sec-4 article {
+.newsletter form input:last-child {
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    color: #612316;
+    float: left;
+    height: 58px;
+    left: 286px;
+    padding: 0 42px;
+    position: relative;
+    text-align: center;
+    top: -101px;
+    width: 214px;
+}
+
+/*------------------------------section-4 (posts)------------------------------*/
+
+.posts {
+	background-color: white;
+	margin: 40px auto 0;
+	overflow: hidden;
+}
+
+.posts article {
 	width: 1165px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
-.sec-4 .art-1 img {
+.posts img {
 	width: 582px;
 	height: auto;
 	float: right;
 }
 
-.sec-4 article p {
+.posts article p {
 	color: #191b29;
 	font-size: 16px;
 	font-weight: 300;
@@ -301,14 +296,15 @@ nav ul li.active {
 	overflow: hidden;
 }
 
-.sec-4 article h1 {
+.posts article h1 {
 	color: #191b29;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 48px;
+	padding-top: 10px;
 }
 
-.sec-4 .art-1 div a {
+.posts div a {
 	text-align: center;
 	height: 57px;
 	background-color: #dd4b2b;
@@ -322,57 +318,45 @@ nav ul li.active {
 	line-height: 30px;
 }
 
-.sec-4 article div {
+.posts article div {
 	margin-top: 43px;
 }
 
-.art-2 {
-	clear: both;
-	padding-top: 30px;
+.posts article:last-child {
+	margin-top: 50px;
+	margin-bottom: 86px;
 }
 
-.sec-4 .art-2 img {
+.posts article:last-child img {
 	width: 582px;
 	height: auto;
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 90px
 }
 
-.sec-4 .art-2 div a {
-	text-align: center;
-	height: 57px;
+.posts article:last-child div a {
 	background-color: #4b4e73;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
-	color: white;	
-	width: 212px;
-	padding: 18px 75px;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
 }
 
-/*------------------------------section-5------------------------------*/
+/*------------------------------section-5 (links-orange)------------------------------*/
 
-.sec-5 {
+.links-orange {
 	background-color: #d75d0e;
-	width: 2000px;
-	height: 405px;
 	clear: both;
 }
 
-.sec-5 div {
+.links-orange div {
 	width: 1165px;
 	margin: 0 auto;
-	padding-top: 100px;
 }
 
-.sec-5 ul {
+.links-orange ul {
+	float: left;
 	padding-left: 0;
+	margin: 90px 133px;
 }
 
-.sec-5 ul li {
+.links-orange ul li {
 	list-style-type: none;
 	color: white;
 	font-size: 18px;
@@ -380,22 +364,7 @@ nav ul li.active {
 	line-height: 36px;
 }
 
-.list-1 {
-	float: left;
-	margin-left: 100px;
-}
 
-.list-2 {
-	float: left;
-	margin-left: 246px;
-}
-
-.list-3 {
-	float: left;
-	margin-left: 281px;
-	margin-right: 115px;
-
-}
 
 /*------------------------------footer------------------------------*/
 
@@ -403,16 +372,20 @@ footer {
 	background-image: url(../img/bg-footer.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 2000px;
-	height: 375px;
-	padding-top: 85px;
 	text-align: center;
 
 }
 
 footer p {
-	width: 666px;
-	margin: 0 auto;
+	margin: 85px auto 243px;
 	color: white;
 	font-size: 18px;
+}
+
+footer span {
+	display: block;
+}
+
+footer a {
+	font-weight: 700;
 }
