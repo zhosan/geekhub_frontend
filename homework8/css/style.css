@@ -88,6 +88,8 @@ header {
 	font-size: 33px;
 	color: white;
 	clear: both;
+	width: 506px;
+	margin: 0 auto;
 }
 
 .logo {
@@ -111,8 +113,6 @@ header {
 
 /*-----------------------------section .about-us----------------------------------*/
 
-
-
 header p {
 	margin-top: 10px;
 }
@@ -131,7 +131,6 @@ header p {
 	margin-top: 35px;
 	display: block;
 }
-
 
 .about-us img {
 	overflow: hidden;
@@ -168,7 +167,6 @@ article {
 
 }
 
-
 .project {
 	float: left;
 	width: 370px;
@@ -179,7 +177,6 @@ article {
 
 }
 
-
 .project .when-hover {
 	background-color: rgba(66, 65, 65, 0.83);
 	display: none;
@@ -188,7 +185,6 @@ article {
     left: 0;
     top: 0;
     width: 370px;
-    z-index: 1;
 }
 
 .project .when-hover a {
@@ -201,11 +197,9 @@ article {
   	padding: 10px 28px;
 }
 
-
 .project:hover .when-hover {
 	display: block;
 }
-
 
 .project:nth-child(3n+3)  {
 	margin-right: 0;
@@ -280,13 +274,8 @@ article {
 	margin: 25px auto 15px;
 }
 
-.photography-white {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	display: none;
+.service-field-photography:hover .photography {
 	background-image: url(../img/camera-white.png);
-	z-index;
 }
 
 
@@ -321,14 +310,7 @@ a.services-read-more {
 	transition: all 0.2s ease-in-out 0s;
 }
 
-.service-field-photography:hover  .photography-white {
- 	display: block;
- 	background-repeat: no-repeat;
- 	width: 40px;
-	height: 40px;
-	margin: 25px 117px;
-	transition: all 0.2s ease-in-out 0s;
-}
+
 
 /*----------------painting------------------------*/
 
@@ -341,13 +323,8 @@ a.services-read-more {
 	margin: 25px auto 15px;
 }
 
-.painting-white {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	display: none;
+.service-field-painting:hover .painting {
 	background-image: url(../img/brush-white.png);
-	z-index;
 }
 
 
@@ -368,15 +345,6 @@ a.services-read-more {
 	transition: all 0.2s ease-in-out 0s;
 }
 
-.service-field-painting:hover  .painting-white {
- 	display: block;
- 	background-repeat: no-repeat;
- 	width: 40px;
-	height: 40px;
-	margin: 25px 117px;
-	transition: all 0.2s ease-in-out 0s;
-}
-
 /*----------------video-editing------------------------*/
 
 .video-editing {
@@ -387,15 +355,9 @@ a.services-read-more {
 	margin: 25px auto 15px;
 }
 
-.video-editing-white {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	display: none;
+.service-field-video-editing:hover .video-editing {
 	background-image: url(../img/scissors-white.png);
-	z-index;
 }
-
 
 .service-field-video-editing:hover {
 	background-color: #39c9da;
@@ -414,15 +376,6 @@ a.services-read-more {
 	transition: all 0.2s ease-in-out 0s;
 }
 
-.service-field-video-editing:hover  .video-editing-white {
- 	display: block;
- 	background-repeat: no-repeat;
- 	width: 40px;
-	height: 40px;
-	margin: 25px 117px;
-	transition: all 0.2s ease-in-out 0s;
-}
-
 /*----------------web-design------------------------*/
 
 .web-design {
@@ -433,15 +386,9 @@ a.services-read-more {
 	margin: 25px auto 15px;
 }
 
-.web-design-white {
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	display: none;
+.service-field-web-design:hover .web-design {
 	background-image: url(../img/web-white.png);
-	z-index;
 }
-
 
 .service-field-web-design:hover {
 	background-color: #39c9da;
@@ -457,15 +404,6 @@ a.services-read-more {
  	color: #323030;
 	background-color: white;
 	display: block;
-	transition: all 0.2s ease-in-out 0s;
-}
-
-.service-field-web-design:hover  .web-design-white {
- 	display: block;
- 	background-repeat: no-repeat;
- 	width: 40px;
-	height: 40px;
-	margin: 25px 117px;
 	transition: all 0.2s ease-in-out 0s;
 }
 
@@ -535,7 +473,6 @@ footer {
 }
 
 footer .wrapper {
-	
 	text-align: center;
 }
 
