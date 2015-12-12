@@ -1,0 +1,297 @@
+
+/*-------------------------------------320 - 479-----------------------------*/
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+	.social-icons ul li, .social-icons ul li:first-child {
+	    width: 140px;
+	}
+
+	.pagination ul li {
+		font-size: 1.4rem;
+	}
+
+}
+
+
+
+
+	
+
+/*-------------------------------------480 - 767-----------------------------*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+	.social-icons ul li{
+	    width: 160px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+
+
+
+
+/*---------------------------------header 0-767-----------------------------------*/
+
+	div#wrapper {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	div#header {w
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	div#logo {
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+		font-size: 1.4rem;
+		padding-top: 20px;
+		width: auto;
+	}
+
+/*---------------------------------content 0-767-----------------------------------*/
+
+
+	div#content {
+		width: 95%;
+		padding: 10px 0;
+		text-align: center;
+		font-size: 1.4rem;
+	}
+
+	img {
+	    height: auto;
+	    width: 100%;
+	}
+
+/*---------------------------------main 0-767-----------------------------------*/
+
+
+	div#main {
+		width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	.featured-post img {
+	    width: 100%;
+	    height: auto;
+	}
+
+	.featured-post p:nth-child(2n) {
+	    text-align: left;
+	}
+
+	.featured-post div {
+	    text-align: left;
+	}
+
+	.additional-posts {
+		margin-bottom: 0;
+	}
+
+	.add-post {
+		padding-top: 30px;
+	}
+
+	.add-post img {
+	    float: none;
+	    width: 100%;
+	    height: auto;
+	    padding-left: 0;
+	}
+
+	.add-post p {
+		margin: 15px 0 0;
+	}
+
+	.add-post h2 {
+		margin: 5px 0;
+		font-size: 1.8rem;
+	}
+
+	.add-post p:nth-child(4n) {
+		text-align: left;
+		margin-top: 0;
+	}
+
+	.add-post div:last-child {
+		text-align: left;
+		margin-top: 5px;
+	}
+
+	.pagination {
+		text-align: center;
+		padding: 0;
+		margin: 30px auto;
+		width: 100%;
+	}
+
+
+	.pagination ul {
+		text-align: center;
+		padding: 0;
+		margin: 0 auto;
+		display: inline-block;
+		font-size: 1.7rem;
+	}
+
+/*-------------------------------------#left-sidebar 0-767-----------------------------*/
+
+	#left-sidebar {
+		float: none;
+		width: 80%;
+		margin: 30px auto 0;
+	}
+
+
+	#left-sidebar img {
+	    height: auto;
+	    width: 100%;
+	}
+
+	#left-sidebar form input {
+    	width: 250px;
+	}
+
+/*-------------------------------------#right-sidebar 0-767-----------------------------*/
+
+	#right-sidebar {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		overflow: hidden;
+	}
+
+	.social-icons {
+	    float: none;
+	    width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
+
+	.social-icons a {
+	    margin-bottom: 10px;
+	}
+
+	.social-icons ul li p:nth-child(2n) {
+	    margin: 2px 0px 2px 38px;
+	}
+
+	.social-icons span {
+	    padding-left: 11px;
+	}
+
+	.sidebar160, .sidebar120 {
+	    float: none;
+	    margin-right: 0px;
+	    width: 100%;
+	}
+	
+	.sidebar160 p, .sidebar120 p {
+	    text-align: left;
+	}
+
+/*-------------------------------------footer 0-767-----------------------------*/
+
+	#footer {
+	    text-align: center;
+	}
+
+}
+
+
+/*-------------------------------------768 - 999-----------------------------*/
+
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+
+		#wrapper, #content {
+			width: 100%;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+
+		}
+
+		#main {
+			width: 57%;
+			margin-left: 2%;
+			padding: 10px 0;
+		}
+
+		.add-post img {
+			margin-bottom: 10px;
+		}
+
+		#left-sidebar {
+			float: none;
+			margin: 30px auto;
+			width: 50%;
+			text-align: center;
+		}
+
+		#left-sidebar img {
+			width: 100%;
+			height: auto;
+		}
+
+		#right-sidebar {
+			width: 37%;
+			margin-left: 2%;
+			margin-right: 2%;
+		}
+
+		.featured-post img {
+		    width: 100%;
+		    height: auto;
+		}
+
+		.social-icons {
+		    float: none;
+		    list-style: outside none none;
+		}
+
+		.social-icons ul {
+		    width: 100%;
+		}
+
+		.sidebar160, .sidebar120 {
+		    float: none;
+		    margin-right: 0px;
+		    width: 100%;
+		}
+
+		.social-icons ul li, .social-icons ul li:first-child {
+		    width: 46%;
+		}
+
+		.social-icons a {
+		    margin-bottom: 0; 
+		}
+
+		#footer {
+	   		text-align: center;
+		}
+
+		#left-sidebar form input {
+    		width: 300px;
+		}
+
+}
+
+
+
+
