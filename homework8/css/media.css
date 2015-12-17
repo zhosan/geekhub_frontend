@@ -1,0 +1,369 @@
+
+/*-------------------------------------320 - 479-----------------------------*/
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	
+/*--------------------------section .portfolio------------------*/
+
+	.portfolio .project {
+		width: 90%;
+		float: none;
+		max-width: 370px;
+		margin: 20px auto;
+		height: auto;
+		position: relative;
+	}
+
+	.project-name {
+		height: 40px;
+	}
+
+	.project-name h3 {
+	    margin: 11px 14px;
+	    font-size: 1.3rem;
+	}
+
+	.project span {
+	    font-size: 1rem;
+	    margin: 11px 14px;
+	}
+
+/*--------------------------section .services------------------*/
+
+	.service-field-photography , .service-field-painting , .service-field-video-editing , .service-field-web-design  {
+		width: 70%;
+		margin: 20px auto;
+		float: none;
+	}
+
+	.service-fields  {
+	margin-bottom: 30px;
+	}
+}
+
+/*-------------------------------------480 - 767-----------------------------*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+/*--------------------------section .portfolio------------------*/
+
+	.projects {
+		width: 100%;
+	}
+
+	.portfolio .project {
+		width: 44%;
+		max-width: 370px;
+		margin: 20px 4%;
+		height: auto;
+		position: relative;
+	}
+
+	.portfolio .project:nth-child(2n) {
+		width: 44%;
+		max-width: 370px;
+		margin-left: 0;
+		height: auto;
+		position: relative;
+	}
+
+	.project .when-hover a {
+		font-size: 1.3rem;
+	}
+
+
+	.project-name {
+		height: 40px;
+	}
+
+	.project-name h3 {
+	    margin: 11px 14px;
+	    font-size: 1.2rem;
+	}
+
+/*--------------------------section .services------------------*/
+
+	.service-field-photography, .service-field-painting, .service-field-video-editing, .service-field-web-design {
+		width: 44%;
+		margin: 20px 3.7%;
+	}
+
+	.service-field-painting, .service-field-web-design {
+		margin-left: 0;
+	}
+}
+
+/*-------------------------------------0 - 767-----------------------------*/
+
+@media screen and (max-width: 767px) {
+
+.wrapper {
+		width: 100%;
+	}
+	
+	header {
+		text-align: center;
+		margin: 25px auto;
+		width: 80%;
+	}
+
+	h1 {
+		width: 80%;
+		font-size: 2rem;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+/*---------------------section .header----------------------*/
+
+	.header .wrapper nav {
+		display: none;
+	}
+
+	.logo {
+		float: none;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.header .wrapper h1 {
+		width: 80%;
+		font-size: 2.5rem;
+		margin-top: 50px;
+	}
+
+	/*--------------------------section .about-us------------------*/
+
+	.about-us article {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.about-us article div.text-part{
+		float: none;
+		width: 100%;
+	}
+
+	.about-us .text-part h2, .contact-data h2{
+		width: 100%;
+		margin: 0 auto 10px;
+		text-align: center;
+	}
+
+	.about-us .text-part p {
+		text-align: left;
+	}
+
+
+	.about-us .blue-strip, .contact-us .blue-strip{
+		position: static;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.about-us .text-part .typical-button {
+		margin: 35px auto 20px;
+	}
+
+
+	.about-us img {
+	    margin: 20px auto;
+	    max-width: 100%;
+	}
+	
+/*--------------------------section .portfolio------------------*/
+	
+	.project span {
+	    font-size: 1rem;
+	    margin: 11px 14px;
+	}
+
+/*--------------------------section .contact-us------------------*/
+	
+	.contact-data {
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.contact-data h2, .contact-data h3 {
+		text-align: center;
+	} 
+
+	.contact-data div {
+		text-align: center;
+	}
+
+	.contact-data div:last-child {
+		margin-bottom: 30px;
+	}
+
+	form {
+		float: none;
+		width: 90%;
+		margin: 0 auto 50px;
+		text-align: center;
+	}
+
+	input, textarea {
+		display: block;
+	}
+
+	textarea {
+   	    width: 90%;
+	    height: 152px;
+	}
+
+	input[type="email"] {
+	    margin-left: auto;
+	}
+
+	.subject {
+	    width: 271px;
+	}
+
+	button[type="submit"] {
+	    float: none;
+	    margin: 10px 0;
+	}
+}
+
+/*-------------------------------------768 - 1250-----------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+
+	.header .wrapper ul li {
+        font-size: 1.4rem;
+    }
+
+	.wrapper {
+		width: 100%;
+	}
+	
+	header {
+		text-align: center;
+		margin: 25px auto;
+		width: 80%;
+	}
+
+	.logo {
+		margin-left: 3%;
+	}
+
+	h1 {
+		width: 80%;
+		font-size: 2rem;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+/*--------------------------section .contact-us------------------*/
+
+	.header .wrapper nav {
+
+		margin-right: 3%;
+	}
+
+	.about-us article {
+		width: 95%;
+		margin: 0 auto 30px;
+		overflow: hidden;
+	}
+
+	.about-us article img {
+	    width: 50%;
+	    max-width: 571px;
+	    margin: 60px 0 0;
+	}
+
+	.about-us div.text-part {
+	    width: 48%;
+	    margin: 0;
+	    font-size: 1.3rem
+	}
+
+	.about-us div.text-part h2 {
+	    margin-bottom: 5px;
+
+	}
+
+	.about-us div.text-part p {
+	    margin: 0;
+	}
+
+	.about-us div.text-part .typical-button {
+	    margin: 15px 0 0;
+	}
+
+/*--------------------------section .portfolio------------------*/
+	
+	.projects {
+		width: 100%;
+	}
+
+	.project {
+		width: 31%;
+		margin: 0 1.75% 40px 0;
+	}
+
+	.project:nth-child(1), .project:nth-child(4) {
+		margin-left: 1.75%;
+	}
+
+/*--------------------------section .services------------------*/
+
+	.service-field-photography, .service-field-painting, .service-field-video-editing, .service-field-web-design {
+		width: 44%;
+		margin: 20px 3.7%;
+	}
+
+	.service-field-painting, .service-field-web-design {
+		margin-left: 0;
+	}
+
+/*--------------------------section .services------------------*/
+
+	.contact-data {
+		width: 44%;
+		margin: 0 2% 0 4%;
+		text-align: center;
+	}
+
+	.contact-data .blue-strip {
+		margin: 0 auto;
+	}
+
+	.contact-data p {
+		text-align: left;
+	}
+
+	form {
+		width: 48%;
+		margin: 70px 2% 0 0;
+		text-align: center;
+	}
+
+	input[type="email"] {
+	    margin-left: auto;
+	}
+
+	.subject {
+	    width: 270px;
+	}
+
+	input, textarea {
+	    margin: 10px auto;
+	    padding: 10px 10px;
+	    display: block;
+	}
+
+	textarea {
+	    width: 350px;
+	}
+
+	button[type="submit"] {
+	    float: none;
+	}
+}
+

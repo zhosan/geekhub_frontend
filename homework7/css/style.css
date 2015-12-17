@@ -1,3 +1,7 @@
+html {
+	font-size: 62.5%;
+}
+ 
 .wrapper {
 	width: 1256px;
 	font-family: RobotoSlab;
@@ -11,41 +15,37 @@ header {
 	overflow: hidden;
 	background-color: #edeff1;
 	height: 147px;
-
 }
 
 .logo {
 	float: left;
 	overflow: hidden;
 	margin-top: 49px;
-	font-size: 36px;
+	font-size: 3.6rem;
 	font-weight: 700;
 	color: #31353e;
-
 }
 
 .logo span {
 	display: block;
 	color: #dd4b2b;
 	font-family: RobotoSlab;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 
 nav {
 	margin-top: 49px;
-	float: left;
-	margin-left: 381px;
-	width: 627px;
-	font-size: 18px;
+	float: right;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 2.4rem;
 }
 
 nav ul li {
 	float: left;
 	list-style-type: none;
-	padding: 10px 22.5px;
+	padding: 15px 22.5px;
 }
 
 nav ul li:first-child {
@@ -54,28 +54,25 @@ nav ul li:first-child {
 
 nav ul li:last-child {
 	margin-left: 0px;
-	padding-right: 0px;
 }
 
-nav ul li.active {
-	padding: 10px 20px;
+nav ul li:hover {
 	background-color: #dd4b2b;
 	border-radius: 25px;
 	color: #edeff1;
 }
 
-
 /*------------------------------main-----------------------------------*/
 /*------------------------------section-1 (main-section)------------------------------*/
 
 .main-section {
-	background-image: url(../img/bg.png);
+	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	text-align: center;
 }
 
-.main-section h1{
-	font-size: 72px;
+.main-section h1 {
+	font-size: 7.2rem;
 	font-weight: 300;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	color: white;
@@ -84,7 +81,7 @@ nav ul li.active {
 }
 
 .main-section h2{
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	color: white;
@@ -92,7 +89,7 @@ nav ul li.active {
 }
 
 .food {
-	width: 1165px;
+	width: 92.8%;
 	overflow: hidden;
 	margin: 122px auto 0px;
 }
@@ -107,30 +104,26 @@ nav ul li.active {
 	padding-right: 0;
 }
 
-
-
 .food h2 {
 	color: white;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
 	margin-top: 20px;
 }
 
 .food p {
 	color: white;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3.0rem;
 }
 
 .read-more {
 	margin: 80px auto;
 	color: #612316;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 30px;
-	clear: both;
-
+	line-height: 3.0rem;
 }
 
 .read-more a {
@@ -138,7 +131,6 @@ nav ul li.active {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 27px;
 	padding: 20px 60px;
-	margin: 79px 0 140px 0;
 }
 
 /*------------------------------section-2 (our-news)------------------------------*/
@@ -151,51 +143,58 @@ nav ul li.active {
 
 .our-news h1 {
 	color: #31353e;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 2.4rem;
 	margin: 0px auto 80px;
 }
 
 .news {
-	width: 1165px;
+	width: 100%;
 	overflow: hidden;
 	margin: 0 auto;
+	padding-bottom: 100px;
 }
 
 .news img {
-	width: 371px;
+	max-width: 100%;
 }
 
 .news h2 {
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 700;
 	padding: 
 }
 
 .news p {
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	width: 288px;
 	margin: 0 auto 39px;
 }
 
-.news-menu-1, .news-menu-2, .news-menu-3 {
-	width: 371px;
+.news-menu {
 	float: left;
 	text-align: center;
-	padding-bottom: 100px;
+	padding-right: 26px;
+	width: 31%;
+	margin: 0 1.75% 50px 0;
+	padding-right: 0;
 }
 
-.news-menu-1, .news-menu-2 {
-	padding-right: 26px;
+.news-menu:first-child {
+	margin-left: 1.75%;
+}
+
+.news-menu:last-child {
+	padding-right: 0px;
 }
 
 .news a:last-child {
 	color: #4e5159;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3.0rem;
 	padding: 21px 53px;
 	background-color: white;
 	border-radius: 27px;
@@ -205,24 +204,23 @@ nav ul li.active {
 
 .newsletter {
 	text-align: center;
-	background-image: url(../img/bg-2.png);
+	background-image: url(../img/bg-2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 80px;
 	text-align: center;
 }
 
 .newsletter h1 {
 	color: white;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
-	line-height: 48px;
-	margin: 0px;
+	line-height: 4.8rem;
+	margin: 80px 0 0 0;
 }
 
 .newsletter h2 {
 	color: white;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	width: 533px;
 	margin: 0 auto;
@@ -244,12 +242,11 @@ section form div {
     border-radius: 27px;
     color: #f3f4f6;
     float: left;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 1.8rem;
     height: 54px;
     margin-top: 43px;
     padding-left: 36px;
-    width: 300px;
+    width: 293px;
 }
 
 .newsletter form input:last-child {
@@ -272,7 +269,6 @@ section form div {
 .posts {
 	background-color: white;
 	margin: 40px auto 0;
-	overflow: hidden;
 }
 
 .posts article {
@@ -282,26 +278,23 @@ section form div {
 }
 
 .posts img {
-	width: 582px;
 	height: auto;
 	float: right;
 }
 
 .posts article p {
 	color: #191b29;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3.0rem;
 	width: 561px;
 	overflow: hidden;
 }
 
 .posts article h1 {
 	color: #191b29;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 48px;
-	padding-top: 10px;
+	font-size: 3.0rem;
+	line-height: 4.8rem;
 }
 
 .posts div a {
@@ -313,9 +306,8 @@ section form div {
 	color: white;	
 	width: 212px;
 	padding: 18px 75px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 30px;
 }
 
 .posts article div {
@@ -345,10 +337,6 @@ section form div {
 	clear: both;
 }
 
-.links-orange div {
-	width: 1165px;
-	margin: 0 auto;
-}
 
 .links-orange ul {
 	float: left;
@@ -359,27 +347,24 @@ section form div {
 .links-orange ul li {
 	list-style-type: none;
 	color: white;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 3.6rem;
 }
-
-
 
 /*------------------------------footer------------------------------*/
 
 footer {
-	background-image: url(../img/bg-footer.png);
+	background-image: url(../img/bg-footer.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-
 }
 
 footer p {
 	margin: 85px auto 243px;
 	color: white;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 
 footer span {

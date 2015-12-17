@@ -1,0 +1,310 @@
+
+/*-------------------------------------320 - 479-----------------------------*/
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+		.news {
+			width: 95%;
+		}
+
+		.newsletter .wrapper {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+
+		.newsletter h2 {
+			font-size: 1.5rem;
+			width: 85%;
+			margin: 0 auto;
+		}
+
+		.newsletter form input {
+		    
+		    font-size: 1.6rem;
+		    height: 36px;
+		    width: 200px;
+		}
+
+		.newsletter form input:last-child {
+		    
+		    height: 40px;
+		    left: 201px;
+		    padding: 0 27px;
+		    top: -83px;
+		    width: 100px;
+		}
+}
+
+/*-------------------------------------480 - 767-----------------------------*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+		.newsletter form input {
+		    
+		    font-size: 1.7rem;
+		    height: 45px;
+		    width: 280px;
+		}
+
+		.newsletter form input:last-child {
+		    
+		    height: 49px;
+		    left: 201px;
+		    padding: 0 27px;
+		    top: -92px;
+		    width: 130px;
+		}
+}
+
+
+/*-------------------------------------0 - 767-----------------------------*/
+
+@media screen and (max-width: 767px) {
+
+	html {
+		font-size: 60%;
+	}
+
+	.wrapper nav {
+		display: none;
+	}
+
+	.wrapper {
+		width: 100%;
+	}
+
+	header .logo {
+		float: none;
+		text-align: center;
+	}
+
+	.main-section .wrapper {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.main-section h1 {
+		padding-top: 100px;
+		font-size: 4rem;
+	}
+
+	.main-section h2 {
+		font-size: 2rem;
+	}
+
+	.food {
+		margin-top: 20px;
+	}
+
+	.food-menu {
+		float: none;
+		width: 100%;
+		margin: 40px 0px;
+		padding-right: 0;
+	}
+
+	.read-more {
+		margin: 10px auto 50px;
+	}
+
+	.our-news h1 {
+		margin: 0px auto 20px;
+	}
+
+	.news {
+		padding-bottom: 0;
+	}
+
+	.news-menu {
+		float: none;
+		width: 100%;
+		margin: 20px 0px 50px;
+	}
+
+	.newsletter form {
+		margin: 0 auto;
+		width: 320px;
+	}
+
+	.posts article {
+	    margin: 0 auto;
+	    width: 90%;
+	    overflow: visible;
+	}
+
+	.posts article img {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.posts article:last-child img {
+    	width: 100%;
+    	float: none;
+    }
+ 
+	.posts article p {
+		font-size: 1.6rem;
+		width: 100%;
+		line-height: 2.0rem;
+		margin: 5px 0;
+		text-align: justify;
+	}
+
+	.posts article h1 {
+		font-size: 2.5rem;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	.posts div  {
+		text-align: center;
+	}
+
+	.links-orange ul {
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+
+	.links-orange ul:first-child {
+		padding-top: 50px;
+	}
+
+	.links-orange ul:last-child {
+		padding-bottom: 50px;
+	}
+
+	footer p  {
+		margin: 30px auto 200px;
+		color: white;
+		font-size: 1.8rem;
+	}
+}
+
+/*-------------------------------------768 - 1023-----------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1255px) {
+
+	html {
+		font-size: 62,5%;
+	}
+
+	.wrapper nav {
+		float: right;
+		font-size: 1.4rem;
+	}
+
+	.wrapper {
+		width: 100%;
+	}
+
+	header .logo {
+		margin-left: 5%;
+	}
+
+	.main-section .wrapper {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.main-section h1 {
+		padding-top: 100px;
+		font-size: 4rem;
+	}
+
+	.main-section h2 {
+		font-size: 2rem;
+	}
+
+	.food-menu {
+		width: 30%;
+	}
+
+	.food-menu p {
+		font-size: 1.35rem;
+	}
+
+	.our-news h1 {
+		margin: 0px auto 50px;
+	}
+
+	.news {
+		padding-bottom: 0;
+		width: 100%
+	}
+
+	.news p {
+		width: 100%
+	}
+
+	.news-menu {
+		width: 31%;
+		margin: 0 1.75% 50px 0;
+		padding-right: 0;
+	}
+
+	.news-menu:first-child {
+		margin-left: 1.75%;
+	}
+
+	.news-menu:last-child {
+		margin-right: 0;
+	}
+
+	.newsletter form {
+		margin: 0 auto;
+	}
+
+	.posts article {
+		width: 95%;
+	}
+
+	.posts article h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	.posts article p {
+	    font-size: 1.5rem;
+	    line-height: 1.7rem;
+	    width: 45%;
+	    margin: 5px 0 0 0;
+	}
+
+	.posts article img {
+		width: 50%;
+	}
+
+	.posts article div {
+    	margin-top: 30px;
+	}
+
+	.posts article:last-child img {
+    	width: 50%;
+    }
+
+    .links-orange ul {
+    	width: 20%;
+    	margin: 50px 0;
+    	padding-left: 10%;
+    	text-align: center;
+    }
+
+    .links-orange ul:last-child {
+    	padding-right: 10%;
+    }
+	
+	footer p  {
+		margin: 70px auto 200px;
+		color: white;
+		font-size: 1.8rem;
+	}
+}
+
+
+/*-------------------------------------1024 - 1255-----------------------------*/
+
+@media screen and (min-width: 1256px) and (max-width: 1400px) {
+
+	header .logo {
+		margin-left: 5%;
+	}
+}
+
