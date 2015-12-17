@@ -2,8 +2,6 @@ html {
 	font-size: 62.5%;
 }
  
-
-
 .wrapper {
 	width: 1256px;
 	font-family: RobotoSlab;
@@ -17,7 +15,6 @@ header {
 	overflow: hidden;
 	background-color: #edeff1;
 	height: 147px;
-
 }
 
 .logo {
@@ -27,7 +24,6 @@ header {
 	font-size: 3.6rem;
 	font-weight: 700;
 	color: #31353e;
-
 }
 
 .logo span {
@@ -66,7 +62,6 @@ nav ul li:hover {
 	color: #edeff1;
 }
 
-
 /*------------------------------main-----------------------------------*/
 /*------------------------------section-1 (main-section)------------------------------*/
 
@@ -76,7 +71,7 @@ nav ul li:hover {
 	text-align: center;
 }
 
-.main-section h1{
+.main-section h1 {
 	font-size: 7.2rem;
 	font-weight: 300;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
@@ -108,8 +103,6 @@ nav ul li:hover {
 .food-menu:last-child {
 	padding-right: 0;
 }
-
-
 
 .food h2 {
 	color: white;
@@ -191,7 +184,6 @@ nav ul li:hover {
 
 .news-menu:first-child {
 	margin-left: 1.75%;
-	
 }
 
 .news-menu:last-child {
@@ -360,8 +352,6 @@ section form div {
 	line-height: 3.6rem;
 }
 
-
-
 /*------------------------------footer------------------------------*/
 
 footer {
@@ -369,7 +359,6 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-
 }
 
 footer p {

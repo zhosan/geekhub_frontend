@@ -226,7 +226,6 @@ article {
 	font-size: 1.2rem;
 	font-family: 'OpenSansItalic', sans-serif;
 	margin: 20px 14px;
-
 }
 
 /*-----------------------------section .Services----------------------------------*/
@@ -307,10 +306,7 @@ a.services-read-more {
 	transition: all 0.2s ease-in-out 0s;
 }
 
-
-
 /*----------------painting------------------------*/
-
 
 .painting {
 	width: 40px;
@@ -323,7 +319,6 @@ a.services-read-more {
 .service-field-painting:hover .painting {
 	background-image: url(../img/brush-white.png);
 }
-
 
 .service-field-painting:hover {
 	background-color: #39c9da;

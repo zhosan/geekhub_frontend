@@ -13,11 +13,6 @@
 
 }
 
-
-
-
-	
-
 /*-------------------------------------480 - 767-----------------------------*/
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -25,26 +20,18 @@
 	.social-icons ul li{
 	    width: 160px;
 	}
-
-
 }
 
+/*---------------------------------header 0-767-----------------------------------*/
 
 @media screen and (max-width: 767px) {
-
-
-
-
-
-
-/*---------------------------------header 0-767-----------------------------------*/
 
 	div#wrapper {
 		width: 100%;
 		overflow: hidden;
 	}
 
-	div#header {w
+	div#header {
 		text-align: center;
 		width: 100%;
 		margin: 0 auto;
@@ -61,7 +48,6 @@
 
 /*---------------------------------content 0-767-----------------------------------*/
 
-
 	div#content {
 		width: 95%;
 		padding: 10px 0;
@@ -75,7 +61,6 @@
 	}
 
 /*---------------------------------main 0-767-----------------------------------*/
-
 
 	div#main {
 		width: 100%;
@@ -138,7 +123,6 @@
 		width: 100%;
 	}
 
-
 	.pagination ul {
 		text-align: center;
 		padding: 0;
@@ -154,7 +138,6 @@
 		width: 80%;
 		margin: 30px auto 0;
 	}
-
 
 	#left-sidebar img {
 	    height: auto;
@@ -180,7 +163,6 @@
 		overflow: hidden;
 		margin: 0 auto;
 	}
-
 
 	.social-icons a {
 	    margin-bottom: 10px;
@@ -209,12 +191,9 @@
 	#footer {
 	    text-align: center;
 	}
-
 }
 
-
 /*-------------------------------------768 - 999-----------------------------*/
-
 
 @media screen and (min-width: 768px) and (max-width: 999px) {
 
@@ -223,7 +202,6 @@
 			overflow: hidden;
 			margin: 0;
 			padding: 0;
-
 		}
 
 		#main {
@@ -289,7 +267,6 @@
 		#left-sidebar form input {
     		width: 300px;
 		}
-
 }
 
 

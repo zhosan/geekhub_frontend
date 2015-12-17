@@ -2,14 +2,8 @@
 /*-------------------------------------320 - 479-----------------------------*/
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
-
-	
-
-
 	
 /*--------------------------section .portfolio------------------*/
-
-
 
 	.portfolio .project {
 		width: 90%;
@@ -45,9 +39,6 @@
 	.service-fields  {
 	margin-bottom: 30px;
 	}
-
-
-
 }
 
 /*-------------------------------------480 - 767-----------------------------*/
@@ -100,9 +91,7 @@
 	.service-field-painting, .service-field-web-design {
 		margin-left: 0;
 	}
-
 }
-
 
 /*-------------------------------------0 - 767-----------------------------*/
 
@@ -182,7 +171,6 @@
 	    margin: 20px auto;
 	    max-width: 100%;
 	}
-
 	
 /*--------------------------section .portfolio------------------*/
 	
@@ -190,7 +178,6 @@
 	    font-size: 1rem;
 	    margin: 11px 14px;
 	}
-
 
 /*--------------------------section .contact-us------------------*/
 	
@@ -240,16 +227,11 @@
 	    float: none;
 	    margin: 10px 0;
 	}
-
-
 }
-
 
 /*-------------------------------------768 - 1250-----------------------------*/
 
-
 @media screen and (min-width: 768px) and (max-width: 1250px) {
-
 
 	.header .wrapper ul li {
         font-size: 1.4rem;
@@ -277,7 +259,6 @@
 	}
 
 /*--------------------------section .contact-us------------------*/
-
 
 	.header .wrapper nav {
 
@@ -311,13 +292,11 @@
 	    margin: 0;
 	}
 
-
 	.about-us div.text-part .typical-button {
 	    margin: 15px 0 0;
 	}
 
 /*--------------------------section .portfolio------------------*/
-
 	
 	.projects {
 		width: 100%;
@@ -357,9 +336,7 @@
 
 	.contact-data p {
 		text-align: left;
-
 	}
-
 
 	form {
 		width: 48%;
@@ -370,7 +347,6 @@
 	input[type="email"] {
 	    margin-left: auto;
 	}
-
 
 	.subject {
 	    width: 270px;
@@ -389,23 +365,5 @@
 	button[type="submit"] {
 	    float: none;
 	}
-
-
-}
-
-
-
-
-
-
-
-
-
-/*-------------------------------------1175 - 1500-----------------------------*/
-
-@media screen and (min-width: 1175px) and (max-width: 1500px) {
-
-
-
 }
 
