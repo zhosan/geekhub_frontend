@@ -86,7 +86,6 @@ nav ul li{
 	color: white;
 }
 
-
 /*-------------------------------.fork-app----------------------------*/
 
 section.fork-app {
@@ -159,7 +158,6 @@ section.fork-app {
 	font-weight: 400;
 	margin: 0px auto 36px;
 	width: 70%;
-
 }
 
 .little-icons {
@@ -279,7 +277,6 @@ section.fork-app {
 	color: #635c73;
 }
 
-
 .authors .row a {
 	display: inline-block;
 	width: 200px;
@@ -333,7 +330,6 @@ section.people-talking {
 .people-talking .container {
 	border-bottom: 1px solid grey;
 }
-
 
 .people-talking .row {
 	margin-top: 50px;
@@ -413,7 +409,6 @@ section.pricing {
 	color: rgba(255, 255, 255, 0.25);
 	margin-bottom: 25px;
 }
-
 
 .pricing-info .per-month::after {
     background-color: #8d81ac;
@@ -504,7 +499,6 @@ section.pricing {
 
 /*-------------------------------.news----------------------------*/
 
-
 .news .container {
 	padding: 80px 0;
 }
@@ -529,7 +523,6 @@ section.pricing {
 	font-size: 16px;
 	font-weight: 400;
 	margin-top: 10px;
-
 }
 
 .news .row .new-in-realease p {
@@ -557,7 +550,6 @@ section.pricing {
 	font-size: 16px;
 	font-weight: 400;
 	margin-top: 10px;
-
 }
 
 .news .row .popular-extensions p, .news .row .new-from-blog p {

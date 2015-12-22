@@ -1,25 +1,25 @@
 .container:before,
 .container:after {
-  display: block;
-  content: " ";
+	display: block;
+	content: " ";
 }
 
 .container:after {
-  clear: both;
+	clear: both;
 }
 
 .row {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .row:before,
 .row:after {
-  display: block;
-  content: " ";
+	display: block;
+	content: " ";
 }
 
 .row:after {
-  clear: both;
+ 	clear: both;
 }
 
 @media screen and (min-width: 320px) {
