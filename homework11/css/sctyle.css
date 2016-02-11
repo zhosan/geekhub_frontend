@@ -1,0 +1,270 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato",sans-serif;
+  font-weight: 400; }
+
+* {
+  box-sizing: border-box; }
+
+*::after, *::before {
+  box-sizing: border-box; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto; }
+
+.home {
+  background-image: url(../img/bg-header.jpg);
+  background-position: cover; }
+  .home .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(29, 153, 242, 0.5);
+    z-index: 2;
+    padding: 15px;
+    width: 100%; }
+    .home .header nav ul li {
+      display: inline-block; }
+      .home .header nav ul li a {
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 400;
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+        font-size: 1.6em;
+        border: 1px solid transparent; }
+        .home .header nav ul li a:hover {
+          background: rgba(0, 0, 0, 0.5);
+          border: 1px solid white;
+          border-radius: 4px;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+  .home .container {
+    padding-top: 260px;
+    margin: 0 auto;
+    text-align: center;
+    color: white; }
+    .home .container h1 {
+      font-size: 3.4rem;
+      font-weight: 700;
+      width: 60%;
+      margin: 0 auto; }
+    .home .container h2 {
+      font-size: 2.2rem;
+      width: 60%;
+      margin: 20px auto 0; }
+
+.client {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0px;
+  background: #F0F0F0; }
+  .client li {
+    margin: 0 50px;
+    display: inline-block;
+    vertical-align: middle; }
+
+.about header h1 {
+  color: #333;
+  font-size: 2.6rem;
+  font-weight: 900;
+  text-align: center; }
+  .about header h1::before {
+    background-image: url("../img/about.png");
+    content: " ";
+    width: 95px;
+    height: 107px;
+    margin: 50px auto;
+    display: block; }
+.about header p {
+  color: #999;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px auto 130px;
+  width: 40%; }
+.about div.row div {
+  min-height: 102px;
+  margin: 10px auto; }
+  .about div.row div h2 {
+    color: #39c;
+    font-size: 1.6rem;
+    font-weight: 400; }
+  .about div.row div p {
+    color: #ccc;
+    font-size: 1.6rem; }
+  .about div.row div .sprite {
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin: 5px 20px 50px 0px; }
+  .about div.row div .sprite-part-1 {
+    background-position: -5px -5px;
+    width: 43px;
+    height: 47px; }
+  .about div.row div .sprite-part-2 {
+    background-position: -111px -5px;
+    width: 36px;
+    height: 44px; }
+  .about div.row div .sprite-part-3 {
+    background-position: -203px -5px;
+    width: 50px;
+    height: 39px; }
+  .about div.row div .sprite-part-4 {
+    background-position: -323px -5px;
+    width: 49px;
+    height: 44px; }
+  .about div.row div .sprite-part-5 {
+    background-position: -441px -5px;
+    width: 40px;
+    height: 44px; }
+  .about div.row div .sprite-part-6 {
+    background-position: -541px -5px;
+    width: 36px;
+    height: 42px; }
+  .about div.row div:hover .sprite-part-1 {
+    background-position: -58px -5px; }
+  .about div.row div:hover .sprite-part-2 {
+    background-position: -157px -5px; }
+  .about div.row div:hover .sprite-part-3 {
+    background-position: -263px -5px; }
+  .about div.row div:hover .sprite-part-4 {
+    background-position: -382px -5px; }
+  .about div.row div:hover .sprite-part-5 {
+    background-position: -491px -5px; }
+  .about div.row div:hover .sprite-part-6 {
+    background-position: -587px -5px; }
+  .about div.row div:hover p {
+    color: #666; }
+
+.product {
+  background: #f0f0f0;
+  padding-bottom: 50px; }
+  .product .advantages {
+    text-align: center;
+    padding-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100%; }
+    .product .advantages div {
+      color: #999;
+      font-size: 1.8em;
+      display: inline-block;
+      border: 1px solid #CCC;
+      margin: 50px 0 0;
+      height: 282px; }
+      .product .advantages div .sprite {
+        display: block;
+        background-image: url("../img/spritesheet.png");
+        background-repeat: no-repeat; }
+      .product .advantages div .sprite-part-7 {
+        width: 60px;
+        height: 65px;
+        background-position: -633px -5px;
+        margin: 34px auto 63px; }
+      .product .advantages div .sprite-part-8 {
+        width: 50px;
+        height: 59px;
+        background-position: -773px -5px;
+        margin: 44px auto 62px; }
+      .product .advantages div .sprite-part-9 {
+        width: 69px;
+        height: 55px;
+        background-position: -893px -5px;
+        margin: 39px auto 62px; }
+      .product .advantages div .sprite-part-10 {
+        width: 60px;
+        height: 60px;
+        background-position: -972px -5px;
+        margin: 39px auto 63px; }
+      .product .advantages div h2 {
+        color: #999;
+        font-size: 2.2rem; }
+      .product .advantages div span {
+        color: #0cf;
+        font-size: 5.2rem; }
+      .product .advantages div:hover {
+        background: rgba(255, 255, 255, 0.5);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+        .product .advantages div:hover .sprite-part-7 {
+          background-position: -703px -5px; }
+        .product .advantages div:hover .sprite-part-8 {
+          background-position: -833px -5px; }
+        .product .advantages div:hover .sprite-part-9 {
+          background-position: -1112px -5px; }
+        .product .advantages div:hover .sprite-part-10 {
+          background-position: -1042px -5px; }
+        .product .advantages div:hover h2 {
+          color: black; }
+  .product header {
+    text-align: center; }
+    .product header h1 {
+      color: #333;
+      font-size: 26px;
+      font-weight: 900; }
+      .product header h1::before {
+        content: "";
+        width: 94px;
+        height: 107px;
+        margin: 50px auto;
+        display: block;
+        background-image: url("../img/shape-3.png"); }
+    .product header p {
+      color: #999;
+      font-size: 16px;
+      width: 50%;
+      margin: 10px auto 60px; }
+  .product .product-menu {
+    text-align: center; }
+    .product .product-menu div {
+      font-size: 1.8em;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      display: inline-block;
+      border: 2px solid #999;
+      margin: 50px 5px; }
+      .product .product-menu div:hover {
+        color: white;
+        background-color: #33AFE5;
+        border: 2px solid #33AFE5;
+        cursor: pointer;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+  .product .gallery {
+    text-align: center; }
+    .product .gallery div {
+      margin: 30px auto;
+      position: relative;
+      height: 206px; }
+      .product .gallery div img {
+        max-width: 100%; }
+      .product .gallery div div.when-hover {
+        display: none;
+        position: absolute;
+        max-width: 300px;
+        top: 10px;
+        left: 0px;
+        background-color: rgba(51, 175, 229, 0.9); }
+      .product .gallery div:hover .when-hover {
+        display: block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        z-index: 10;
+        max-width: 300px; }
+
+/*# sourceMappingURL=sctyle.css.map */
